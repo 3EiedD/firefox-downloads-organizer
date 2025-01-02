@@ -1,0 +1,30 @@
+{
+    "name": "Firefox Downloads Organizer",
+    "description": "Adds ability to sort/organize files into subfolders given a ruleset",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["storage", "downloads"],
+    "options_ui": {
+        "page": "options/options.html",
+        "open_in_tab": false
+    },
+    "action": {
+        "default_title": "Firefox Downloads Organizer",
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "/icons/16x.png",
+            "32": "/icons/32x.png",
+            "48": "/icons/48x.png",
+            "128": "/icons/128x.png"
+        }
+    },
+    "icons": {
+        "16": "/icons/16x.png",
+        "32": "/icons/32x.png",
+        "48": "/icons/48x.png",
+        "128": "/icons/128x.png"
+    }
+}
